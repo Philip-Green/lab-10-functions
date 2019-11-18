@@ -6,13 +6,13 @@
   </head>
   <body>
     <script>
-      function greet() { //defining the function
-    console.log("Hello"); //prints "hello" once
-    }
-    for (i = 1; i <= 5; i++) {
-greet(); //Will be called five times, due to the loop
-    }
-//greet();
+var answer = prompt("word please");
+ document.write(pluralize(answer));
+
+
+      function pluralize(word) { //defining the function
+      return word + "s"
+  }
     </script>
   </body>
 </html>
